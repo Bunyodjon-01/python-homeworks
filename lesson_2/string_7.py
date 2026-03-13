@@ -1,0 +1,5 @@
+sentence = input("Input sentence: ")
+replace_word = input("Replace: ")
+with_word = input("with: ")
+new_sentence = sentence.replace(replace_word, with_word)
+print("output:", new_sentence)
